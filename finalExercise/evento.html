@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa di Compleanno</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #ff6600;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .guest-info input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Festa di Compleanno</h1>
+        <p>Unisciti a noi per celebrare!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Dettagli dell'Evento</h2>
+            <p>Ti invitiamo a festeggiare il compleanno di Gabriele!</p>
+            <p><strong>Data:</strong> 24 Ottobre 2024</p>
+            <p><strong>Orario:</strong> 18:00 - 23:00</p>
+            <p><strong>Luogo:</strong> Villa delle Rose, Via del Parco, 10, Roma</p>
+        </section>
+
+        <section>
+            <h2>Contatti Personali</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> gabriele@email.com</p>
+                <p><strong>Telefono:</strong> +39 123456789</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Informazioni dell'Invitato</h2>
+            <form class="guest-info" action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> 2024 Festa di Compleanno</p>
+    </footer>
+</body>
+</html>
