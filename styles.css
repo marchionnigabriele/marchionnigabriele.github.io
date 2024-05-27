@@ -7,15 +7,11 @@ body {
 
 .background {
     background-image: url("yharon.jpg");
-    filter: blur(8px);
+    backdrop-filter: blur(8px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.no-filter {
-    filter: none;
 }
 
 .container {
