@@ -3,7 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url("yharon.jpg");
+    filter: blur(8px);
 }
 
 .container {
